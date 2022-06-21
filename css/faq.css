@@ -1,0 +1,87 @@
+/*Search Area*/
+
+.faq-space {
+  background-color: #054854;
+  margin-top: -100px;
+  padding-top: 100px;
+  height: auto;
+  margin-bottom: -20px;
+}
+
+.search-head {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0px;
+  font-family: 'Source Sans Pro';
+}
+
+.search-desc {
+  color: #D0EEFF;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Source Sans Pro';
+  padding: 0 10px;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+  height: 50px;
+  position: sticky;
+  top: 90px;
+  z-index: 100;
+}
+
+input[type=text] {
+  height: 50px;
+  border-radius: 25px;
+  border: 0;
+  width: 100%;
+  padding: 20px;
+  padding-right: 40px;
+  font-family: 'Raleway';
+  color: #999;
+  background-color: white;
+  box-shadow: 0 6px 6px -6px #aaa;
+}
+
+input[type=text]::placeholder {
+  color: #aaa;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type=text]:hover::placeholder, input[type=text]:focus::placeholder {
+  color: #ddd;
+}
+
+.search-clear-cross {
+  text-align: right;
+  margin-top: -32.5px;
+  margin-right: 18px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.search-button {
+  text-align: right;
+  margin-top: -40px;
+  margin-right: 18px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 660px) {
+  .search-box {
+    width: 95%;
+    top: 80px;
+  }
+}

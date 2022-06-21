@@ -1,0 +1,78 @@
+body{
+    background-color:black;
+}
+.photos img{
+    padding: 2%;
+}
+.photos img:hover{
+    padding: 2%;
+    background-color: white;
+    transition: 0.5s;
+}
+#photos-center{
+    text-align: center;
+    vertical-align: bottom;
+    padding:0%;
+}
+.photos{
+    text-align: center;
+    vertical-align: middle;
+    overflow:hidden;
+}
+
+#one{
+    display:none;
+     text-align: center;
+}
+
+#two{
+    display:none;
+}
+#three{
+    display:none;
+}
+#four{
+    display:none;
+}
+#six{
+    display:none;
+}
+#seven{
+   display:none;
+}
+#eight{
+   display:none;
+}
+#nine{
+    display:none;
+}
+#ten{
+    display:none;
+}
+#eleven{
+    display:none;
+}
+#twelve{
+   display:none;
+}
+#thirteen{
+   display:none;
+}
+#fourteen{
+    display:none;
+}
+#fifteen{
+    display:none;
+}
+#sixteen{
+    display:none;
+}
+#seventeen{
+    display:none;
+}
+#eighteen{
+    display:none;
+}
+#nineteen{
+    display:none;
+}

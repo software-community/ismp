@@ -1,0 +1,186 @@
+.blog {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog-auth-photo {
+    width: 65px;
+    height: 65px;
+    display: block;
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+
+.blog-auth-photo::after {
+    content: '';
+    border-top: 2px solid #054854;
+    border-bottom: 2px solid #054854;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 115%;
+    height: 115%;
+    border-radius: 50%;
+    display: block;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -7.5%;
+    margin-top: -7.5%;
+    transform: rotate(30deg);
+    transition: all 0.2s ease-in-out
+}
+
+.blog:hover .blog-auth-photo::after {
+    transform: rotate(120deg);
+    margin-left: -7.5%;
+    margin-top: -7.5%;
+    width: 115%;
+    height: 115%;
+    border-top: 2px solid #054854;
+    border-bottom: 2px solid #054854;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.blog-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
+
+.blog-desc {
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: rgb(140, 140, 140);
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
+
+.blog-auth {
+    margin-top: 20px;
+    align-items: center;
+    height: 100px;
+    padding-top: 1px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.blog-no-sep {
+    border-bottom: 0 !important;
+}
+
+.blog-auth img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.blog .name {
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: 'Fira Sans';
+    color: rgb(90, 90, 90);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.blog .name-det {
+    font-size: 12px;
+}
+
+.blog .date {
+    display: block;
+    margin-left: 90px;
+    margin-top: 10px;
+    font-family: 'Fira Sans';
+    color: rgb(120, 120, 120);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.blog-read-more {
+    font-family: 'Raleway';
+    color: #ccc;
+    font-size: 16px;
+    margin-top: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.blog:hover .blog-read-more{
+    color: #444;
+}
+
+.blog-page-title {
+    font-family: 'EB Garamond';
+    font-size: 44px;
+    font-weight: 500;
+    color: black;
+    margin-top: 50px;
+}
+
+.blog-page-article h3{
+    font-family: 'EB Garamond';
+    font-size: 22px;
+    color: rgb(65, 65, 65);
+}
+.blog-page-article b{
+    font-weight: 700;
+}
+.blog-page-article p,.blog-page-article ol, .blog-page-article li{
+    font-family: 'EB Garamond';
+    font-size: 22px;
+    color: rgb(65, 65, 65);
+    line-height: 36px;
+    margin-left: 20px;
+    margin-bottom: 36px;
+    margin-right:10px;
+}
+.blogs-back-box{
+    text-align:right;
+    margin-right: 5%;
+}
+.blogs-back{
+    font-family: 'EB Garamond';
+    font-size: 18px;
+    text-decoration: none;
+    color:rgb(120,120,120);
+}
+.blogs-back:hover{
+    color:rgb(90,90,90);
+}
+
+@media (max-width: 660px) {
+    .blog .name {
+        font-size: 14px;
+    }
+    .blog .name-det {
+        font-size: 10px;
+    }
+    .blog .date {
+        font-size: 14px;
+    }
+    .blog-page-title {
+        font-size: 34px;
+    }
+    .blog-page-article h3{
+        font-size: 20px;
+    }
+    .blog-page-article p,.blog-page-article ol, .blog-page-article li{
+        font-size: 20px;
+        line-height: 32px;
+        margin-left: 20px;
+        margin-bottom: 36px;
+    }
+}

@@ -1,0 +1,486 @@
+.website-view-count {
+    margin-top: 50px;
+    margin-left: 15%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #bbb;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 20px;
+    width: 70%;
+}
+
+.website-view-number {
+    display: inline;
+    opacity: 0;
+}
+
+.navbar-brand h2 {
+    line-height: 2;
+    font-size: .8em;
+}
+
+nav h1 {
+    text-align: center;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 1px 2px #d0d0d0;
+    margin-top: 10px;
+    line-height: 0;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+/*  This is Footer 1 style */
+
+/*== Body demo class ==*/
+
+.demo {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Hyperlink begin */
+
+.myf a {
+    color: #f0f0f0;
+}
+
+.myf a:hover, .myf a:focus {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.myf a, .myf a:focus, .myf a:hover, .myf a:active, .myf button, .myf button:hover {
+    outline: 0 !important;
+}
+
+/*== Footer flat color ==*/
+
+.myf .bg-color {
+    background: #333;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+
+.myf .footer-corner {
+    background: url("../images/elem/footer/corner-bottom.png") no-repeat left bottom, url("../images/elem/footer/corner-upper.png") no-repeat right top;
+}
+
+/*  Footer texture color */
+
+.myf .bg-background {
+    background: url('../images/bg-2.png') repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*  Footer gradient color */
+
+.myf .bg-gradient {
+    background: -moz-radial-gradient(center, ellipse cover, #f44336 0%, #000000 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f44336), color-stop(100%, #000000));
+    /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, #f44336 0%, #000000 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, #f44336 0%, #000000 100%);
+    /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, #f44336 0%, #000000 100%);
+    /* ie10+ */
+    background: radial-gradient(ellipse at center, #f44336 0%, #000000 100%);
+    /* w3c */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f44336', endColorstr='#000000', GradientType=1);
+    /* ie6-9 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+}
+
+.myf {
+    z-index: 2;
+    font-weight: 500;
+    color: #eaeaea;
+    line-height: 1;
+    color: #fff;
+    clear: both;
+    margin-top: 20px;
+    background: url('../images/elem/back/footer.png') repeat center center fixed;
+    background-color: black;
+    position: relative;
+    border-top: 1px solid #000;
+}
+
+.myf .bg-gradient footer {
+    border-top: 5px solid #f44336;
+}
+
+.myf .bg-background footer {
+    border-top: 5px solid #2D6774;
+}
+
+.myf footer a {
+    color: #f0f0f0;
+}
+
+.myf footer a:hover, .myf footer a:focus {
+    color: #f0f0f0;
+    text-decoration: underline;
+}
+
+.myf footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.myf footer .logo {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.myf footer .social-icons.light-icons a {
+    background-color: #3c3c3e;
+}
+
+.myf footer .social-icons.light-icons a:hover {
+    background-color: #353536 !important;
+}
+
+@media screen and (max-width: 768px) {}
+
+.myf .footer-heading {
+    margin: 0 0 13px 0;
+    font-size: 16px;
+    line-height: 2;
+    color: #f0f0f0;
+}
+
+h3.footer-heading:first-letter {
+    border-bottom: 4px double #ccc;
+}
+
+.myf .footer-nav>li {
+    margin-bottom: 10px;
+}
+
+.myf hr {
+    background-color: white
+}
+
+/* Copyright CSS */
+
+.myf .copyright {
+    padding: 15px 0;
+    background-color: rgba(12, 12, 12, 0.2);
+    font-size: 12px;
+    line-height: 10px
+}
+
+.myf .footer-minimal .copyright {
+    border: none !important;
+    font-size: 11px;
+    padding-bottom: 0;
+    background-color: transparent;
+}
+
+/* social connect icons */
+
+/* Social icon list */
+
+/*
+.myf ul.social-icons li a {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    width: 47px;
+    height: 50px;
+    font-size: 24px;
+    color: #f0f0f0;
+    text-align: center;
+    -moz-box-shadow: 0 0 3px #888;
+    -webkit-box-shadow: 0 0 3px#888;
+    box-shadow: 0 0 3px #888;
+}*/
+
+/* Social icon hover CSS */
+
+.myf ul.social-icons li a.facebook-bg:hover, .myf ul.social-icons li a.facebook-bg:focus {
+    background-color: #344f98;
+}
+
+.myf ul.social-icons li a.twitter-bg:hover, .myf ul.social-icons li a.twitter-bg:focus {
+    background-color: #138bee;
+}
+
+.myf ul.social-icons li a.googleplus-bg:hover, .myf ul.social-icons li a.googleplus-bg:focus {
+    background-color: #d73925;
+}
+
+.myf ul.social-icons li a.rss-bg:hover, .myf ul.social-icons li a.rss-bg:focus {
+    background-color: #e65c00;
+}
+
+.myf ul.social-icons li a.youtube-bg:hover, .myf ul.social-icons li a.youtube-bg:focus {
+    background-color: #c4302b;
+}
+
+.myf ul.social-icons li a.linkedin-bg:hover, .myf ul.social-icons li a.linkedin-bg:focus {
+    background-color: #0e76a8;
+}
+
+.myf ul.social-icons li a i {
+    position: relative;
+    top: 8px;
+}
+
+/* newsletter form */
+
+.myf .newsletter-form {
+    margin-top: 20px;
+}
+
+.myf .newsletter-form .form-control {
+    font-size: 14px;
+}
+
+.myf .newsletter-form .input-group-lg>.form-control, .myf .newsletter-form .input-group-lg>.input-group-btn>.btn {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+}
+
+.myf .newsletter-form .input-group-lg>.form-control {
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    -webkit-border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #414143;
+    outline: none;
+}
+
+.myf .bg-gradient .newsletter-form .input-group-lg>.form-control, .myf .bg-background .newsletter-form .input-group-lg>.form-control {
+    background: rgba(12, 12, 12, 0.5);
+}
+
+.myf .newsletter-form .input-group-lg>.form-control:focus {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.myf .newsletter-form .input-group-lg>.input-group-btn>.btn {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -webkit-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #406da4;
+    font-size: 14px;
+    padding: 10px;
+    min-width: 93px;
+}
+
+.myf .newsletter-form .input-group-lg>.input-group-btn>.btn:hover, .myf .newsletter-form .input-group-lg>.input-group-btn>.btn:focus {
+    background-color: #396192;
+}
+
+.myf .newsletter-form .input-group-lg>.input-group-btn>.btn i {
+    display: none;
+}
+
+.myf .newsletter-form .input-group-lg>.input-group-btn>.btn.loading i {
+    display: inline;
+}
+
+.myf .newsletter-form .input-group-lg>.input-group-btn>.btn.loading span {
+    display: none;
+}
+
+.myf .newsletter-form .input-group-lg .input-group-btn:last-child>.btn {
+    margin-left: 0;
+}
+
+.myf .form-control {
+    color: #f0f0f0;
+}
+
+.myf .social-connect {
+    padding-top: 15px;
+}
+
+.footer-cat {
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 1.8px;
+}
+
+.footer-cat span {
+    font-family: 'Jost';
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#footer-heads {
+    color: white;
+    text-align: left;
+    font-family: 'Jost';
+    padding: inherit;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#footer-desc {
+    color: white;
+    text-align: left;
+    font-family: 'Jost';
+    padding: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#footer-heads-nobackground {
+    color: rebeccapurple;
+    vertical-align: text-top;
+}
+
+.footer-sub-heads a {
+    font-family: 'Jost';
+    font-size: 15px;
+    padding-left: 15px;
+    color: #aaaaaa !important;
+    text-decoration: none !important;
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+}
+
+.footer-sub-heads a:hover, .footer-sub-heads a:focus {
+    color: #f44336 !important;
+}
+
+.fb-text {
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    color: #aaaaaa;
+}
+
+.fb-text:hover {
+    color: #3b569d;
+}
+
+.yt-text {
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    color: #aaaaaa;
+}
+
+.yt-text:hover {
+    color: #ff0000;
+}
+
+.insta-text {
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    color: #aaaaaa;
+}
+
+.insta-text:hover {
+    color: #1a567b;
+}
+
+.twitter-text {
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    color: #aaaaaa;
+}
+
+.twitter-text:hover {
+    color: #43bffb;
+}
+
+.li-text {
+    -webkit-transition: all 100ms ease-in-out;
+    -moz-transition: all 100ms ease-in-out;
+    -o-transition: all 100ms ease-in-out;
+    -ms-transition: all 100ms ease-in-out;
+    transition: all 100ms ease-in-out;
+    color: #aaaaaa;
+}
+
+.li-text:hover {
+    color: #0e76a8;
+}
+
+.btn-facebook {
+    background-color: #000000;
+}
+
+.footer-add {
+    text-align: left;
+    font-family: 'Jost';
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 15px;
+    color: #dddddd !important;
+    text-decoration: none !important;
+}
+
+/*
+Tutorials 
+Web Tools 
+Free Stuff 
+Blog 
+Home Blogs CSS3
+Published on: 09 February, 2016
+How to create a flashing button using CSS3?
+Posted by andy |  16349 views  1 likes  9 favourites 6 comments
+Facebook Twitter Tumblr Digg Google Plus
+ Like Favourite
+In this tutorial you will learn how easily to build a flashing button using CSS3. As you know in CSS3, there is an animation feature we can use to achieve this.
+
+Please see carefully the following css style code. We use the feature name animation to create the animation effect on our button. The animation feature will require we defines keyframes to trigger this effect. We then define our key frame from 0 to 100% by using the opacity feature to reduce the transparency level. In the animation itself, we specify what will be the duration of the animation and we want the animation to loop infinitely. To support older browser for firefox and safari, we need to include the -webkit and -moz css prefix on our css.
+
+
+*/
