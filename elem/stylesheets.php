@@ -44,7 +44,7 @@
       <link rel="stylesheet" href="<?php echo"$root_path"; ?>plugins/testimonial-carousel/css/style.css">
       <link rel="stylesheet" href="<?php echo"$root_path"; ?>plugins/testimonial-carousel/css/reset.css">
 
-    <!-- Marerial Kit -->
+    <!-- Material Kit -->
       <link rel="stylesheet" href="<?php echo"$root_path"; ?>plugins/material-kit/material-kit.css">
 
 <!-- Web-Icon -->

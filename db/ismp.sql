@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `team` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `team` (`serial`,`name`,`post`,`wapp`,`fb`,`mail`,`phone`,`img`) VALUES
-("1","Dr. Mukesh Saini","FACULTY IN-CHARGE","","","mukesh@iitrpr.ac.in","","images/team/faculty/mukesh.jpg"),
+("1","Dr. Pradeep Duhan","FACULTY IN-CHARGE","","","pduhan@iitrpr.ac.in","","images/team/faculty/pradeep.jpg"),
 ("2","Riya Gupta","SECRETARY","8543827593","https://www.facebook.com/profile.php?id=100038657764102","2019meb1288@iitrpr.ac.in","8543827593","images/team/core/Riya_Gupta.jpg"),
 ("3","Manik Thappa","CO-SECRETARY","9622040651","https://instagram.com/manik_505?utm_medium=copy_link","2019meb1275@iitrpr.ac.in","9622040651","images/team/core/Manik_Thappa.jpg"),
 ("4","Khushi Malviya","CO-SECRETARY","7770900316","https://www.facebook.com/profile.php?id=100009954184617","2019meb1270@iitrpr.ac.in","7770900316","images/team/core/Khushi_Malviya.png"),

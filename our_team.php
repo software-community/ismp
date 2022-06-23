@@ -88,7 +88,7 @@ include('elem/connection.php');
 				include("elem/our_team_selector.php");
 				?>
 				<div class="col-md-8 desc_text">
-					<b>Dr. Mukesh Saini</b>, Assistant Professor in the Department of Computer Science and Engineering,IIT Ropar is the faculty incharge of this programme and has taken special interest to help and encourage the students to form this Mentorship Programme. He has made a special effort in order to prepare the events for counselling of the 2020 Batch. With his mentorship we ensure that we will counsel the freshers to the best extent possible.
+					<b>Dr. Pradeep Duhan</b>, Assistant Professor in the Department of Electrical Engineering, IIT Ropar is the faculty in-charge of this programme and has taken special interest to help and encourage the students to form this Mentorship Programme. He has made a special effort in order to prepare the events for counselling of the 2022 Batch. With his mentorship we ensure that we will counsel the freshers to the best extent possible.
 				</div>
 			</div>
 		</div>
@@ -165,7 +165,7 @@ include('elem/connection.php');
 				// include("elem/our_team_selector.php");
 				// $post_select = 'WEB DESIGNING HEAD';
 				// include("elem/our_team_selector.php");
-				 ?>
+				?>
 			</div>
 		</div>
 	</div>
@@ -187,7 +187,8 @@ include('elem/connection.php');
 			</div>
 		</div>
 	</div>
-	<br><hr><br>
+	<br>
+	<hr><br>
 	<div style="text-align:center; font-size:20px; font-weight:500; font-family:'Jost'; color:#333 !important;">
 		<a class="no-color-link" href="user-login/index.php"><img src="images/logo/google.png" style="display:inline; width:30px;">&nbsp;&nbsp;Mentor Login</a>
 	</div>
